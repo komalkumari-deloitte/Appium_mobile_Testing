@@ -1,15 +1,19 @@
 package AppiumBasics;
 
+import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
-import org.testng.annotations.AfterTest;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 public class BaseTest {
     public AndroidDriver driver;
@@ -34,6 +38,12 @@ public class BaseTest {
         //creating object for android driver
         //android code-> appium server -> mobile
         driver = new AndroidDriver(new URL("http://192.168.29.11:4723"), options);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    }
+    public void longPressAction(WebElement ele)  {
+        //for long press
+        ((JavascriptExecutor)driver).executeScript("mobile:longClickGesture", ImmutableMap.of("elementId",((RemoteWebElement)ele)
+                .getId(),"duration",2000));
     }
     /*@AfterTest
     public void tearDown()

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="create android driver">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" afterDir="false" />
+    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="wifi setting name">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/Basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674146143713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wifi setting name">
+      <created>1674312344763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674312344763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project_structure" />
     <MESSAGE value="create android driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="create android driver" />
+    <MESSAGE value="wifi setting name" />
+    <option name="LAST_COMMIT_MESSAGE" value="wifi setting name" />
   </component>
 </project>
