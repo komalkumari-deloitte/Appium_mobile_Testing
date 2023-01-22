@@ -14,13 +14,13 @@ public class LongPress extends BaseTest {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
         driver.findElement(AppiumBy.accessibilityId("Expandable Lists")).click();
         driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
-        WebElement ele=driver.findElement(By.xpath("android.widget.TextView[@text='People Name']"));
+        WebElement ele=driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
 
         //for long press calling method from BaseTest
         longPressAction(ele);
 
         //validation
-        String menuText=driver.findElement(By.xpath("android:id/title")).getText();
+        String menuText=driver.findElement(By.id("android:id/title")).getText();
         Assert.assertEquals(menuText,"Sample menu");
         Assert.assertTrue(driver.findElement(By.id("android:id/title")).isDisplayed());
 

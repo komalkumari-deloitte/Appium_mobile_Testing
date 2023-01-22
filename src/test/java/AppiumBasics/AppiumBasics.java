@@ -17,8 +17,8 @@ public class AppiumBasics extends BaseTest {
         driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
 
         //validation of title
-        String alartTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
-        Assert.assertEquals(alartTitle,"WiFi settings");
+        String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
+        Assert.assertEquals(alertTitle,"WiFi settings");
 
         //entering password
         driver.findElement(By.id("android:id/edit")).sendKeys("Komal wifi");

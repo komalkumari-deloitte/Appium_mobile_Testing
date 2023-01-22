@@ -45,6 +45,19 @@ public class BaseTest {
         ((JavascriptExecutor)driver).executeScript("mobile:longClickGesture", ImmutableMap.of("elementId",((RemoteWebElement)ele)
                 .getId(),"duration",2000));
     }
+    public void scrollTillEndAction(){
+        //use when no prior idea where to scroll
+        boolean canScrollMore;
+        //if u can't scroll more it will return false
+        do {
+            canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
+                    "left", 100, "top", 100, "width", 200, "height", 200,
+                    "direction", "down",
+                    "percent", 3.0
+            ));
+        }while (canScrollMore);
+    }
+
     /*@AfterTest
     public void tearDown()
     {

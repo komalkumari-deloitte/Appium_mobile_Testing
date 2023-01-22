@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="wifi setting name">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" afterDir="false" />
+    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="add scrolling gesture">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\komalkumari\Git_Projects\Appium_mobile_Testing\src\test\java\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AppiumBasics" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674312344763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Long press gesture">
+      <created>1674394605321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674394605321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +106,8 @@
     <MESSAGE value="project_structure" />
     <MESSAGE value="create android driver" />
     <MESSAGE value="wifi setting name" />
-    <option name="LAST_COMMIT_MESSAGE" value="wifi setting name" />
+    <MESSAGE value="Long press gesture" />
+    <MESSAGE value="add scrolling gesture" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scrolling gesture" />
   </component>
 </project>
