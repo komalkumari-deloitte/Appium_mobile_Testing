@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="add scrolling gesture">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/LongPress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674394605321</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add scrolling gesture">
+      <created>1674397853145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674397853145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
