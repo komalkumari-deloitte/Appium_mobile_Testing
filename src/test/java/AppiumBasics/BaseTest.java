@@ -1,3 +1,6 @@
+//official document:
+//https://github.com/rakjha/appium/blob/master/docs/en/writing-running-appium/android/android-mobile-gestures.md
+
 package AppiumBasics;
 
 import com.google.common.collect.ImmutableMap;
@@ -62,6 +65,15 @@ public class BaseTest {
                 "elementId",((RemoteWebElement)ele).getId(),
                 "direction", direction,
                 "percent", 0.75
+        ));
+    }
+
+    public void DragAndDropAction(WebElement ele){
+        //Drag and Drop
+        ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) ele).getId(),
+                "endX", 619,
+                "endY", 560
         ));
     }
 
