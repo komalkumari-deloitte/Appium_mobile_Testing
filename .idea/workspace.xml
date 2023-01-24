@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="add swipe gesture">
+    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="add drag and drop gesture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/komalkumari/Git_Projects/Appium_mobile_Testing/src/test/java/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/komalkumari/Git_Projects/Appium_mobile_Testing/src/test/java/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\komalkumari\Git_Projects\Appium_mobile_Testing\src\test\java\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RealTimeEcommerceApp" />
       <recent name="AppiumBasics" />
     </key>
   </component>
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674401753093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add drag and drop gesture">
+      <created>1674493037895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674493037895</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +129,7 @@
     <MESSAGE value="Long press gesture" />
     <MESSAGE value="add scrolling gesture" />
     <MESSAGE value="add swipe gesture" />
-    <option name="LAST_COMMIT_MESSAGE" value="add swipe gesture" />
+    <MESSAGE value="add drag and drop gesture" />
+    <option name="LAST_COMMIT_MESSAGE" value="add drag and drop gesture" />
   </component>
 </project>

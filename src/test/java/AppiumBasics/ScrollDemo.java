@@ -12,7 +12,7 @@ public class ScrollDemo extends BaseTest {
 
         //where to scroll is known prior
         //first way to scroll:-
-        //driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new Selector()).scrollIntoView(\"WebView\"));"));
+        //driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
         //Thread.sleep(2000);
 
         //calling function to scrollTillEnd
