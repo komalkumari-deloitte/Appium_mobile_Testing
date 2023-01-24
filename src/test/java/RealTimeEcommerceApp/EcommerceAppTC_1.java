@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class EcommerceAppTC extends BaseTest1{
+public class EcommerceAppTC_1 extends BaseTest1{
     @Test(priority = 1)
     public void FillForm(){
         driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Komal kumari");

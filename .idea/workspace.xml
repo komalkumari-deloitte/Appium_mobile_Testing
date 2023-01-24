@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="add drag and drop gesture">
+    <list default="true" id="ce50eb27-9089-4a22-bab5-f10c91769f61" name="Changes" comment="selenium support dependency added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RealTimeEcommerceApp/EcommerceAppTC_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/AppiumBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumBasics/ScrollDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RealTimeEcommerceApp/BaseTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RealTimeEcommerceApp/BaseTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RealTimeEcommerceApp/EcommerceAppTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RealTimeEcommerceApp/EcommerceAppTC_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674493037895</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="writing test cases for ecommerce app">
+      <created>1674567713992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674567713992</updated>
+    </task>
+    <task id="LOCAL-00009" summary="shopping and validation done">
+      <created>1674574991917</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674574991917</updated>
+    </task>
+    <task id="LOCAL-00010" summary="selenium support dependency added">
+      <created>1674575065796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674575065796</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +152,9 @@
     <MESSAGE value="add scrolling gesture" />
     <MESSAGE value="add swipe gesture" />
     <MESSAGE value="add drag and drop gesture" />
-    <option name="LAST_COMMIT_MESSAGE" value="add drag and drop gesture" />
+    <MESSAGE value="writing test cases for ecommerce app" />
+    <MESSAGE value="shopping and validation done" />
+    <MESSAGE value="selenium support dependency added" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium support dependency added" />
   </component>
 </project>

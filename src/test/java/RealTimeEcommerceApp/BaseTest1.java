@@ -43,40 +43,16 @@ public class BaseTest1 {
         driver = new AndroidDriver(new URL("http://192.168.29.11:4723"), options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
+    //formatting from string to double so that able to add price
+    public Double getFormattedAmount(String amount){
+        Double price=Double.parseDouble(amount.substring(1));
+        return price;
+    }
     public void longPressAction(WebElement ele)  {
         //for long press
         ((JavascriptExecutor)driver).executeScript("mobile:longClickGesture", ImmutableMap.of("elementId",((RemoteWebElement)ele)
                 .getId(),"duration",2000));
     }
-    public void scrollTillEndAction(){
-        //use when no prior idea where to scroll
-        boolean canScrollMore;
-        //if u can't scroll more it will return false
-        do {
-            canScrollMore = (Boolean) ((JavascriptExecutor) driver).executeScript("mobile: scrollGesture", ImmutableMap.of(
-                    "left", 100, "top", 100, "width", 200, "height", 200,
-                    "direction", "down",
-                    "percent", 3.0
-            ));
-        }while (canScrollMore);
-    }
-    public void swipeAction(WebElement ele,String direction){
-        ((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
-                "elementId",((RemoteWebElement)ele).getId(),
-                "direction", direction,
-                "percent", 0.75
-        ));
-    }
-
-    public void DragAndDropAction(WebElement ele){
-        //Drag and Drop
-        ((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
-                "elementId", ((RemoteWebElement) ele).getId(),
-                "endX", 619,
-                "endY", 560
-        ));
-    }
-
     /*@AfterTest
     public void tearDown()
     {
